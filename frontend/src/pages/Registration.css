@@ -1,0 +1,56 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    display: block;
+    font-size: larger;
+    color: rgb(233,30,35);
+    padding: 5px;
+    font-weight: bold;
+}
+ 
+.input {
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+ 
+}
+ 
+.btn {
+    color: rgb(10, 10, 10);
+    background-color: rgb(233,30,35);
+    
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+}
+ 
+.messages {
+    display: flex;
+    justify-content: center;
+}
+ 
+.error {
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+ 
+.success {
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}

@@ -1,0 +1,11 @@
+ul {
+    gap: 10px
+}
+
+li {
+    
+ 
+    background-color: rgb(10, 10, 10);
+    margin: 0 0 10px 0;
+    list-style-position: outside;
+}

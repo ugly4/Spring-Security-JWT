@@ -1,0 +1,27 @@
+.song_template{
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 180px;
+    border-style: solid;
+	border-color: rgb(90, 0, 0);
+    gap: 30px;
+}
+.cover{
+    width: 160px;
+    height: 160px;
+}
+.artist{
+    color: rgb(138, 0, 0);
+    font-weight: bold;
+    font-size:30px;
+    margin: 0;
+}
+.song_name{
+    color: rgb(139, 0, 0);
+    font-size: 20px;
+    margin: 0;
+}

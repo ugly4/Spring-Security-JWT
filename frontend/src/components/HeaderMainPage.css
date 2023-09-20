@@ -1,0 +1,54 @@
+.console{
+    background-color: rgb(10, 10, 10);
+    height: 500px;
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    
+}  
+.fixconsole{
+	display: flex;
+	background-color: rgb(10, 10, 10);
+	height: 150px;
+	width: 100%;
+	position: fixed;
+	border-bottom-style: solid;
+	border-color: rgb(90, 0, 0);
+    top: 0;
+    left: 0;
+    /* justify-content: center;*/
+	align-items: center;
+	align-content: center; 
+}
+.logo{
+	
+	/* display: flex;
+		
+	position: absolute; */
+	border: 50;
+	
+	width: 175px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 10%;
+	-webkit-transition: -webkit-transform 15s linear;
+	transition:         transform 15s linear;
+}
+.logo:hover{
+	-webkit-transform: rotate(1800deg);
+	transform: rotate(1800deg);
+}
+
+.fixlogo {
+	top: 0;
+	position: fixed;
+    
+	display: flex;
+	margin-left: 43%;
+	border: 50;
+	
+	width: 175px;
+	height: 150px;
+}
